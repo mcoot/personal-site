@@ -1,0 +1,21 @@
+baseURL = "http://spearritt.dev/"
+languageCode = "en-us"
+title = "spearritt.dev"
+theme = "tale"
+
+[author]
+  name = "Joseph Spearritt"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 0
